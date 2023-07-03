@@ -11,7 +11,7 @@ Class XWorld {
 
 }
 
-Class Flight extends Frame {
+Class Flight {
 
     public void Flight() {
 
