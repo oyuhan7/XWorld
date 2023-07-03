@@ -1,0 +1,24 @@
+原初设计是这样的。开发语言将是Java。现在，首先进行图标版飞行模拟。飞机将由几条线组成。但是飞的将非常顺滑。
+
+Class XWorld {
+
+    public static void main(){
+
+        Flight TypeIcon = New Flight();
+        TypeIcon.fly();
+
+    }
+
+}
+
+Class Flight extends Frame {
+
+    public void Flight() {
+
+    }
+
+    public void fly() {
+
+    }
+
+}
