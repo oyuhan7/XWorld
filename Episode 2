@@ -1,0 +1,42 @@
+然后，出现了这种问题。遇上了大大的Mistake。我都觉得激动和脸红。玩这Java的结构还是挺复杂。
+
+Class XWorld {
+
+    public static void main(){
+
+        Flight TypeIcon = New Flight();
+        TypeIcon.fly();
+
+    }
+
+}
+
+Class Flight extends Frame {
+
+    int wing = 0.5;
+    int engin = 0.2;
+    int gear = 0.1
+    int cockpit = 0.2
+
+    public void Flight() {
+        
+        super("XWord Flight simulation");
+        setSize(260,120);
+        setVisible(true);
+
+    }
+
+    public void fly() {
+
+        setVisible(true);
+
+    }
+
+    public void paint(Graphics g) {
+
+        g.drawLine(30,40,80,90);
+        g.drawOval(30,40,40,70);
+
+    }
+
+}
