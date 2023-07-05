@@ -20,7 +20,7 @@ Class Flight extends Frame {
 
     public void Flight() {
         
-        super("XWord Flight simulation");
+        super("XWorld Flight simulation");
         setSize(260,120);
         setVisible(true);
 
