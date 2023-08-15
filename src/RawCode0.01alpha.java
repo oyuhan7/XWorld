@@ -121,44 +121,38 @@ public class FlightIcon extends Frame {
         for (int i = 0; i < 5; i++) {
             try {
                 Thread.sleep(1000);
-                repaint();
                 if (i == 0) {
                     xT = xT + 20;
                     yT = yT - 15;
                     Theta = -30;
                     xR = xR + 20;
                     yR = yR - 15;
-                    Thread.sleep(1000);
                 } else if (i == 1) {
                     xT = xT - 40;
                     yT = yT + 30;
                     Theta = 60;
                     xR = xR - 40;
                     yR = yR + 30;
-                    Thread.sleep(1000);
                 } else if (i == 2) {
                     xT = xT + 40;
                     yT = yT + 30;
                     Theta = -50;
                     xR = xR + 40;
                     yR = yR + 30;
-                    Thread.sleep(1000);
                 } else if (i == 3) {
                     xT = xT - 35;
                     yT = yT - 5;
                     Theta = 35;
                     xR = xR - 35;
                     yR = yR - 5;
-                    Thread.sleep(1000);
                 } else if (i == 4) {
                     xT = xT + 40;
                     yT = yT + 15;
                     Theta = -20;
                     xR = xR + 40;
                     yR = yR + 15;
-                    repaint();
                 }
-                Thread.sleep(1000);
+                repaint();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
